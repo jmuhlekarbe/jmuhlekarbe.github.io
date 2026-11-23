@@ -1,0 +1,102 @@
+/* Design: minimal, text-first. Imperial navy accent. */
+:root {
+  --navy: #002147;
+  --blue: #0b3d91;
+  --text: #1c1c1c;
+  --muted: #5f6670;
+  --rule: #e4e6ea;
+  --bg: #ffffff;
+  --soft: #f5f7fa;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Iowan Old Style", "Charter", "Georgia", serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0 auto;
+  max-width: 46rem;
+  padding: 2.5rem 1.5rem 3rem;
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* Links: no underline; underline appears only on hover */
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+
+/* Header */
+.site-header {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: .5rem 1.5rem; padding-bottom: 1rem; margin-bottom: 3rem; border-bottom: 1px solid var(--rule);
+}
+.site-name { font-weight: 600; color: var(--navy); letter-spacing: -.01em; }
+.site-name:hover { text-decoration: none; }
+.site-header nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; font-size: .95rem; }
+.site-header nav a { color: var(--muted); }
+.site-header nav a:hover { text-decoration: none; }
+.site-header nav a:hover, .site-header nav a[aria-current="page"] { color: var(--navy); }
+.site-header nav a[aria-current="page"] { font-weight: 600; }
+
+/* Type */
+h1, h2, h3 { color: var(--navy); line-height: 1.25; letter-spacing: -.015em; }
+h1 { font-size: 2.1rem; font-weight: 650; margin: 0 0 1.25rem; }
+h2 { font-size: 1.25rem; font-weight: 600; margin: 3rem 0 1rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+h3 { font-size: .95rem; font-weight: 600; color: var(--muted); margin: 2rem 0 .75rem; letter-spacing: .02em; }
+p { margin: 0 0 1.1rem; }
+ul { padding-left: 1.2rem; }
+li { margin-bottom: .35rem; }
+code { font-size: .9em; background: var(--soft); padding: .1em .35em; border-radius: 3px; }
+
+/* Home */
+.intro { display: flex; gap: 2.5rem; align-items: flex-start; }
+.intro-text { flex: 1; }
+.portrait { width: 200px; height: 200px; object-fit: cover; border-radius: 4px; flex-shrink: 0; margin-top: .5rem; background: var(--soft); }
+.contact { margin-bottom: .5rem; }
+.link-row { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; }
+
+/* Buttons */
+.button { display: inline-block; padding: .55rem 1rem; border: 1px solid var(--navy); border-radius: 4px; color: var(--navy); font-weight: 500; }
+.button:hover { background: var(--navy); color: #fff; text-decoration: none; }
+
+/* Publications */
+.lead { font-size: 1.05rem; }
+.meta { color: var(--muted); font-size: .95rem; }
+.toc { display: flex; gap: 1.25rem; font-size: .95rem; margin: 1.5rem 0 0; }
+.papers { list-style: none; padding: 0; margin: 0; }
+.paper { margin-bottom: 1.35rem; line-height: 1.5; }
+.paper > span { display: block; }
+.paper-title { font-weight: 600; }
+.paper-title a { color: var(--text); }
+.paper-title a:hover { color: var(--navy); }
+.paper-authors, .paper-venue { color: var(--muted); font-size: .95rem; }
+.paper-links { font-size: .85rem; margin-top: .15rem; }
+.paper-links a { margin-right: .9rem; }
+.placeholder { padding: 1rem 1.25rem; border: 1px dashed #b8c0cc; border-radius: 4px; color: var(--muted); font-size: .95rem; }
+
+/* Mentoring & events lists */
+.people, .events { list-style: none; padding: 0; margin: 0; }
+.people li, .events li { margin-bottom: 1.1rem; line-height: 1.5; }
+.people .who, .events .what { font-weight: 600; display: block; }
+.people .who a, .events .what a { color: var(--text); }
+.people .who a:hover, .events .what a:hover { color: var(--navy); }
+.people .detail, .events .detail { display: block; color: var(--muted); font-size: .95rem; }
+.cv-link { margin: 2rem 0 0; }
+
+/* Footer */
+.site-footer { margin-top: 4.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .875rem; line-height: 1.6; }
+.site-footer address { font-style: normal; }
+.site-footer strong { color: var(--text); font-weight: 600; }
+.updated { margin-top: 1rem; font-size: .8rem; }
+
+@media (max-width: 640px) {
+  body { padding: 1.5rem 1.25rem 2.5rem; font-size: 1rem; }
+  .site-header { margin-bottom: 2rem; }
+  .site-header nav { gap: .25rem .75rem; font-size: .85rem; }
+  .intro { flex-direction: column-reverse; gap: 1.25rem; }
+  .portrait { width: 140px; height: 140px; }
+  h1 { font-size: 1.75rem; }
+}

@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Events
+description: "Workshops, conferences and summer schools in mathematical and quantitative finance organized by Johannes Muhle-Karbe at Imperial College London and the University of Michigan."
+---
+{#- This page is built from src/_data/events.yml. Edit that file, not this one. -#}
+
+{%- macro link(x) %}{% if x.url %}<a href="{{ x.url }}">{{ x.name }}</a>{% else %}{{ x.name }}{% endif %}{% endmacro %}
+
+{%- macro event(e) %}
+<li>
+  <span class="what">{% if e.url %}<a href="{{ e.url }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</span>
+  {%- if e.date %}<span class="detail">{{ e.date }}</span>{% endif %}
+  {%- if e.with or e.hosted_by or e.supported_by %}
+  <span class="detail">
+    {%- if e.with %}Co-organized with {% for p in e.with %}{{ link(p) }}{% if loop.revindex == 2 %} and {% elif not loop.last %}, {% endif %}{% endfor %}.{% endif %}
+    {%- if e.hosted_by %} Hosted by {{ link(e.hosted_by) }}.{% endif %}
+    {%- if e.supported_by %} Supported by {{ link(e.supported_by) }}.{% endif %}
+  </span>
+  {%- endif %}
+</li>
+{%- endmacro %}
+
+<h1>Events</h1>
+
+<h2>Events at Imperial</h2>
+<ul class="events">{% for e in events.imperial %}{{ event(e) }}{% endfor %}</ul>
+
+<h2>Events at Michigan</h2>
+<ul class="events">{% for e in events.michigan %}{{ event(e) }}{% endfor %}</ul>

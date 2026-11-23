@@ -1,0 +1,896 @@
+# ==================================================================
+# PUBLICATIONS
+# ==================================================================
+# Every paper is one block that starts with a dash and "title".
+# The list is ordered newest first.
+#
+# TO ADD A NEW PAPER: copy an existing block, paste it at the top
+# (below these instructions), and change the details.
+#
+#   status:    preprint     (working paper, not yet accepted)
+#              forthcoming  (accepted, "to appear")
+#              published
+#   journal:   name of the journal (leave out for preprints)
+#   details:   volume, issue, pages, e.g. "Vol. 35, No. 4, pp. 818-840"
+#   year:      year of publication (leave out for forthcoming)
+#   links:     any of article, arxiv, ssrn, pdf, podcast, video
+#
+# WHEN A PREPRINT IS ACCEPTED: change "status: preprint" to
+# "status: forthcoming" and add a "journal:" line.
+# WHEN IT APPEARS: change to "status: published", add details, year
+# and the article link.
+#
+# Indentation (the spaces at the start of lines) matters: keep it
+# exactly as in the existing entries.
+# ==================================================================
+
+- title: Benchmarking Deep Hedging
+  coauthors:
+  - Johannes Ruf
+  - Weiguan Wang
+  status: preprint
+  year: 2026
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7737700
+- title: 'Bayes is All You Need: Better Estimates of True Sharpe Ratios'
+  coauthors:
+  - Joseph Mulligan
+  - Juha Joenväärä
+  - Jack Jacquier
+  status: preprint
+  year: 2026
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6300138
+- title: Trading with Uncertainty About Signals and Price Impact
+  coauthors:
+  - Sturmius Tuschmann
+  status: preprint
+  year: 2026
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6275479
+- title: A Unified Theory of Order Flow, Market Impact, and Volatility
+  coauthors:
+  - Youssef Ouazzani Chahdi
+  - Mathieu Rosenbaum
+  - Gregoire Szymanski
+  status: preprint
+  year: 2026
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6155066
+- title: Optimal Trading in Automated Market Makers
+  coauthors:
+  - Agostino Capponi
+  - Anthony Coache
+  status: preprint
+  year: 2026
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6145286
+- title: Information Leakage and Opportunistic Trading Around the FX Fix
+  coauthors:
+  - Roel Oomen
+  - Mateo Rodriguez Polo
+  status: preprint
+  year: 2025
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351658
+- title: A Dynamic Equilibrium Model of Liquidity Risk
+  coauthors:
+  - Agostino Capponi
+  - Xiaofei Shi
+  status: preprint
+  year: 2025
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5176961
+- title: In-Sample and Out-of-Sample Sharpe Ratios for Linear Predictive Models
+  coauthors:
+  - Jack Jacquier
+  - Joseph Mulligan
+  status: preprint
+  year: 2025
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5086171
+- title: Concave Cross Impact
+  coauthors:
+  - Natascha Hey
+  - Iacopo Mastromatteo
+  status: preprint
+  year: 2024
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5046242
+- title: Stochastic Liquidity as a Proxy for Concave Multi-Asset Propagator Models
+  coauthors:
+  - Connor Tracy
+  status: preprint
+  year: 2024
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4885733
+- title: High-Resilience Limits of Block-Shaped Order Books
+  coauthors:
+  - Jan Kallsen
+  status: preprint
+  year: 2014
+  links:
+    arxiv: http://arxiv.org/abs/1409.7269
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2501362
+- title: 'Portfolio Choice with Stochastic Investment Opportunities: a User''s Guide'
+  coauthors:
+  - Ren Liu
+  status: preprint
+  year: 2013
+  links:
+    arxiv: http://arxiv.org/abs/1311.1715
+- title: Efficient Trading with Price Impact
+  coauthors:
+  - Xavier Brokmann
+  - Lukas Gonon
+  - Guangyi He
+  - David Itkin
+  status: forthcoming
+  journal: Mathematical Finance
+  links:
+    article: https://doi.org/10.1111/mafi.70066
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5014119
+- title: Pre-Hedging
+  coauthors:
+  - Roel Oomen
+  status: forthcoming
+  journal: Operations Research
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4499729
+- title: Fluid-Limits of Fragmented Limit-Order Markets
+  coauthors:
+  - Eyal Neuman
+  - Yonatan Shadmi
+  status: forthcoming
+  journal: Finance and Stochastics
+  links:
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4885968
+- title: Dynamic Portfolio Choice with Intertemporal Hedging and Transaction Costs
+  coauthors:
+  - James Sefton
+  - Xiaofei Shi
+  status: forthcoming
+  journal: Management Science
+  links:
+    article: https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.05913
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4522752
+- title: The (Non-)Equivalence of Dividends and Share Buybacks
+  coauthors:
+  - Jean Herskovits
+  - Alex Tse
+  status: published
+  journal: Mathematics and Financial Economics
+  details: Vol. 19, No. 4, pp. 807–849
+  year: 2025
+  links:
+    article: https://link.springer.com/article/10.1007/s11579-025-00396-0
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5199352
+- title: Hedging of Fixing Exposure
+  coauthors:
+  - Roel Oomen
+  - Benjamin Weber
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 35, No. 4, pp. 818–840
+  year: 2025
+  links:
+    article: https://onlinelibrary.wiley.com/doi/10.1111/mafi.12464
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4796356
+- title: Optimal Contracts for Delegated Order Execution
+  coauthors:
+  - Martin Larsson
+  - Benjamin Weber
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 35, No. 4, pp. 779–795
+  year: 2025
+  links:
+    article: https://onlinelibrary.wiley.com/doi/10.1111/mafi.12462
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4621546
+- title: Trading with Concave Price Impact and Impact Decay - Theory and Evidence
+  coauthors:
+  - Natascha Hey
+  - Iacopo Mastromatteo
+  - Kevin Webster
+  status: published
+  journal: Operations Research
+  details: Vol. 73, No. 3, pp. 1230–1247
+  year: 2025
+  links:
+    article: https://pubsonline.informs.org/doi/10.1287/opre.2023.0620
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4625040
+- title: Optimizing Broker Performance Evaluation Through Intraday Modeling of Execution Cost
+  coauthors:
+  - Zoltan Eisler
+  status: published
+  journal: Risk
+  details: July 2025
+  year: 2025
+  links:
+    article: https://www.risk.net/cutting-edge/7961845/optimising-broker-evaluation-through-intraday-modelling-of-execution-cost
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4846427
+    podcast: https://www.risk.net/cutting-edge/views/7961930/podcast-muhle-karbe-on-the-maths-behind-broker-selection
+- title: Tackling Nonlinear Price Impact with Linear Strategies
+  coauthors:
+  - Xavier Brokmann
+  - David Itkin
+  - Peter Schmidt
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 35, No. 2, pp. 422–440
+  year: 2025
+  links:
+    article: https://onlinelibrary.wiley.com/doi/full/10.1111/mafi.12449
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4584448
+- title: A Comparison of FX Fixing Methodologies
+  coauthors:
+  - Roel Oomen
+  status: published
+  journal: Risk
+  details: October 2024
+  year: 2024
+  links:
+    article: https://www.risk.net/cutting-edge/7960196/a-comparison-of-fx-fixing-methodologies
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4857092
+- title: The Cost of Misspecifying Price Impact
+  coauthors:
+  - Jean-Philippe Bouchaud
+  - Natascha Hey
+  - Iacopo Mastromatteo
+  - Kevin Webster
+  status: published
+  journal: Risk
+  details: January 2024
+  year: 2024
+  links:
+    article: https://www.risk.net/investing/7958754/the-cost-of-mis-specifying-price-impact
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4465282
+- title: Stochastic Liquidity as a Proxy for Nonlinear Price Impact
+  coauthors:
+  - Zexin Wang
+  - Kevin Webster
+  status: published
+  journal: Operations Research
+  details: Vol. 72, No. 2, pp. 444–458
+  year: 2024
+  links:
+    article: https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.0627
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4286108
+- title: Closed-Loop Nash Competition for Liquidity
+  coauthors:
+  - Alessandro Micheli
+  - Eyal Neuman
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 33, No. 4, pp. 1082–1118
+  year: 2023
+  links:
+    article: https://onlinelibrary.wiley.com/doi/full/10.1111/mafi.12409
+    arxiv: https://arxiv.org/abs/2112.02961
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3979189
+- title: A Leland Model for Delta Hedging in Central Risk Books
+  coauthors:
+  - Zexin Wang
+  - Kevin Webster
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 33, No. 3, pp. 504–547
+  year: 2023
+  links:
+    article: https://onlinelibrary.wiley.com/doi/full/10.1111/mafi.12395
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4049864
+- title: Liquidity Provision with Adverse Selection and Inventory Costs
+  coauthors:
+  - Martin Herdegen
+  - Florian Stebegg
+  status: published
+  journal: Mathematics of Operations Research
+  details: Vol. 48, No. 3, pp. 1286–1315
+  year: 2023
+  links:
+    article: https://pubsonline.informs.org/doi/abs/10.1287/moor.2022.1294
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3893519
+- title: An Equilibrium Model for the Cross-Section of Liquidity Premia
+  coauthors:
+  - Xiaofei Shi
+  - Chen Yang
+  status: published
+  journal: Mathematics of Operations Research
+  details: Vol. 48, No. 3, pp. 1423–1453
+  year: 2023
+  links:
+    article: https://pubsonline.informs.org/doi/abs/10.1287/moor.2022.1307
+    arxiv: https://arxiv.org/abs/2011.13625
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3738500
+- title: Simple Bounds for Transaction Costs
+  coauthors:
+  - Bruno Bouchard
+  status: published
+  journal: Stochastic Processes and their Applications
+  details: Vol. 146, pp. 98–113
+  year: 2022
+  links:
+    article: https://www.sciencedirect.com/science/article/pii/S0304414922000084
+    arxiv: https://arxiv.org/abs/1802.06120
+- title: Liquidity in Competitive Dealer Markets
+  coauthors:
+  - Peter Bank
+  - Ibrahim Ekren
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 31, No. 3, pp. 827–856
+  year: 2021
+  links:
+    article: https://onlinelibrary.wiley.com/doi/full/10.1111/mafi.12305
+    arxiv: https://arxiv.org/abs/1807.08278
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3217847
+- title: 'Asset Pricing with General Transaction Costs: Theory and Numerics'
+  coauthors:
+  - Lukas Gonon
+  - Xiaofei Shi
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 31, No. 2, pp. 595–648
+  year: 2021
+  links:
+    article: https://onlinelibrary.wiley.com/doi/abs/10.1111/mafi.12297
+    arxiv: https://arxiv.org/abs/1905.05027
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3387232
+- title: Equilibrium Asset Pricing with Transaction Costs
+  coauthors:
+  - Martin Herdegen
+  - Dylan Possamaï
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 25, No. 2, pp. 231–275
+  year: 2021
+  links:
+    article: https://link.springer.com/article/10.1007/s00780-021-00449-4
+    arxiv: https://arxiv.org/abs/1901.10989
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3326085
+- title: Asset Pricing with Heterogeneous Beliefs and Illiquidity
+  coauthors:
+  - Marcel Nutz
+  - Xiaowei Tan
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 30, No. 4, pp. 1392–1421
+  year: 2020
+  links:
+    article: https://onlinelibrary.wiley.com/doi/full/10.1111/mafi.12268
+    arxiv: https://arxiv.org/abs/1905.05730
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3388212
+- title: Lifetime Investment and Consumption with Recursive Preferences and Small Transaction Costs
+  coauthors:
+  - Yaroslav Melnyk
+  - Frank Seifried
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 30, No. 3, pp. 1135–1167
+  year: 2020
+  links:
+    article: https://onlinelibrary.wiley.com/doi/abs/10.1111/mafi.12245
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2970469
+- title: Inventory Management for High-Frequency Trading with Imperfect Competition
+  coauthors:
+  - Sebastian Herrmann
+  - Dapeng Shang
+  - Chen Yang
+  status: published
+  journal: SIAM Journal on Financial Mathematics
+  details: Vol. 11, No. 1, pp. 1–26
+  year: 2020
+  links:
+    article: https://epubs.siam.org/doi/10.1137/18M1207776
+    arxiv: http://arxiv.org/abs/1808.05169
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3232037
+- title: Liquidation in Target Zone Models
+  coauthors:
+  - Christoph Belak
+  - Kevin Ou
+  status: published
+  journal: Market Microstructure and Liquidity
+  details: Vol. 4, No. 3, 1950010
+  year: 2020
+  links:
+    article: https://www.worldscientific.com/doi/10.1142/S2382626619500102
+    arxiv: https://arxiv.org/abs/1808.00515
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3224674
+- title: Trading with Small Nonlinear Price Impact
+  coauthors:
+  - Thomas Cayé
+  - Martin Herdegen
+  status: published
+  journal: The Annals of Applied Probability
+  details: Vol. 30, No. 2, pp. 706–746
+  year: 2020
+  links:
+    article: https://projecteuclid.org/euclid.aoap/1591603220
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3067040
+- title: Scaling Limits of Processes with Fast Nonlinear Mean Reversion
+  coauthors:
+  - Thomas Cayé
+  - Martin Herdegen
+  status: published
+  journal: Stochastic Processes and their Applications
+  details: Vol. 130, No. 4, pp. 1994–2031
+  year: 2020
+  links:
+    article: https://www.sciencedirect.com/science/article/pii/S0304414919303837
+    arxiv: https://arxiv.org/abs/1710.11202
+- title: Portfolio Choice with Small Temporary and Transient Price Impact
+  coauthors:
+  - Ibrahim Ekren
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 29, No. 4, pp. 1066–1115
+  year: 2019
+  links:
+    article: https://onlinelibrary.wiley.com/doi/abs/10.1111/mafi.12204
+    arxiv: https://arxiv.org/abs/1705.00672
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2961282
+- title: Sensitivity of Optimal Consumption Streams
+  coauthors:
+  - Martin Herdegen
+  status: published
+  journal: Stochastic Processes and their Applications
+  details: Vol. 129, No. 6, pp. 1964–1992
+  year: 2019
+  links:
+    article: https://doi.org/10.1016/j.spa.2018.06.011
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2643322
+- title: Who Should Sell Stocks?
+  coauthors:
+  - Paolo Guasoni
+  - Ren Liu
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 29, No. 2, pp. 448–482
+  year: 2019
+  links:
+    article: https://onlinelibrary.wiley.com/doi/abs/10.1111/mafi.12179
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2492465
+    video: https://www.birs.ca/events/2014/5-day-workshops/14w5168/videos/watch/201407090908-Muhle-Karbe.mp4
+- title: Switching Cost Models as Hypothesis Tests
+  coauthors:
+  - Samuel N. Cohen
+  - Timo Henckel
+  - Gordon D. Menzies
+  - Daniel J. Zizzo
+  status: published
+  journal: Economics Letters
+  details: Vol. 175, pp. 32–35
+  year: 2019
+  links:
+    article: https://www.sciencedirect.com/science/article/pii/S0165176518304725
+    arxiv: https://arxiv.org/abs/1808.09686
+- title: Equilibrium Returns with Transaction Costs
+  coauthors:
+  - Bruno Bouchard
+  - Masaaki Fukasawa
+  - Martin Herdegen
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 22, No. 3, pp. 569–601
+  year: 2018
+  links:
+    article: http://link.springer.com/article/10.1007/s00780-018-0366-6
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3009183
+- title: Information and Inventories in High-Frequency Trading
+  coauthors:
+  - Kevin Webster
+  status: published
+  journal: Market Microstructure and Liquidity
+  details: Vol. 3, No. 2, 1750010
+  year: 2018
+  links:
+    article: http://www.worldscientific.com/doi/abs/10.1142/S2382626617500101
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2654277
+- title: A Risk-Neutral Equilibrium Leading to Uncertain Volatility Pricing
+  coauthors:
+  - Marcel Nutz
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 22, No. 2, pp. 281–295
+  year: 2018
+  links:
+    article: https://link.springer.com/article/10.1007/s00780-018-0356-8
+    arxiv: https://arxiv.org/abs/1612.09152
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2891478
+- title: Stability of Radner Equilibria with Respect to Small Frictions
+  coauthors:
+  - Martin Herdegen
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 22, No. 2, pp. 443–502
+  year: 2018
+  links:
+    article: https://link.springer.com/article/10.1007/s00780-018-0354-x
+    ssrn: https://papers.ssrn.com/sol3/papers2.cfm?abstract_id=2921220
+- title: Optimal Rebalancing Frequencies for Multidimensional Portfolios
+  coauthors:
+  - Ibrahim Ekren
+  - Ren Liu
+  status: published
+  journal: Mathematics and Financial Economics
+  details: Vol. 12, No. 2, pp. 165–191
+  year: 2018
+  links:
+    article: https://link.springer.com/article/10.1007/s11579-017-0200-5
+    arxiv: http://arxiv.org/abs/1510.05097
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2675453
+- title: Rebalancing with Linear and Quadratic Costs
+  coauthors:
+  - Ren Liu
+  - Marko Weber
+  status: published
+  journal: SIAM Journal on Control and Optimization
+  details: Vol. 55, No. 6, pp. 3533–3563
+  year: 2017
+  links:
+    article: http://epubs.siam.org/doi/abs/10.1137/15M1043406
+    arxiv: http://arxiv.org/abs/1402.5306
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2402241
+- title: A Primer on Portfolio Choice with Small Transaction Costs
+  coauthors:
+  - Max Reppen
+  - H. Mete Soner
+  status: published
+  journal: Annual Review of Financial Economics
+  details: Vol. 9, pp. 301–331
+  year: 2017
+  links:
+    article: http://www.annualreviews.org/doi/pdf/10.1146/annurev-financial-110716-032445
+    arxiv: https://arxiv.org/abs/1612.01302
+    ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2881374
+- title: Model Uncertainty, Recalibration, and the Emergence of Delta-Vega Hedging
+  coauthors:
+  - Sebastian Herrmann
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 21, No. 4, pp. 873–930
+  year: 2017
+  links:
+    article: https://link.springer.com/article/10.1007/s00780-017-0342-6
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2694718
+- title: The General Structure of Optimal Investment and Consumption with Small Transaction Costs
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 27, No. 3, pp. 659–703
+  year: 2017
+  links:
+    article: http://onlinelibrary.wiley.com/doi/10.1111/mafi.12106/full
+    arxiv: http://arxiv.org/abs/1303.3148
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2246785
+- title: Trading with Small Price Impact
+  coauthors:
+  - Ludovic Moreau
+  - H. Mete Soner
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 27, No. 2, pp. 350–400
+  year: 2017
+  links:
+    article: http://onlinelibrary.wiley.com/doi/10.1111/mafi.12098/abstract
+    arxiv: http://arxiv.org/abs/1402.5304
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2402245
+    video: http://www.birs.ca/events/2014/5-day-workshops/14w5116/videos/watch/201405121547-Muhle-Karbe.mp4
+- title: Hedging with Small Uncertainty Aversion
+  coauthors:
+  - Sebastian Herrmann
+  - Frank Seifried
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 21, No. 1, pp. 1–64
+  year: 2017
+  links:
+    article: http://link.springer.com/article/10.1007/s00780-016-0309-z
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2625965
+- title: Robust Portfolios and Weak Incentives in Long-Run Investments
+  coauthors:
+  - Paolo Guasoni
+  - Hao Xing
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 27, No. 1, pp. 3–37
+  year: 2017
+  links:
+    article: http://onlinelibrary.wiley.com/doi/10.1111/mafi.12087/abstract
+    arxiv: http://arxiv.org/abs/1306.2751
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2277531
+- title: Liquidation with Self-Exciting Price Impact
+  coauthors:
+  - Thomas Cayé
+  status: published
+  journal: Mathematics and Financial Economics
+  details: Vol. 10, No. 1, pp. 15–28
+  year: 2016
+  links:
+    article: http://link.springer.com/article/10.1007/s11579-015-0148-2
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2540630
+- title: Long Horizons, High Risk Aversion, and Endogenous Spreads
+  coauthors:
+  - Paolo Guasoni
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 25, No. 4, pp. 724–753
+  year: 2015
+  links:
+    article: http://onlinelibrary.wiley.com/doi/10.1111/mafi.12046/abstract
+    arxiv: http://arxiv.org/abs/1110.1214
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1939049
+- title: Option Pricing and Hedging with Small Transaction Costs
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 25, No. 4, pp. 702–723
+  year: 2015
+  links:
+    article: http://onlinelibrary.wiley.com/doi/10.1111/mafi.12035/abstract
+    arxiv: http://arxiv.org/abs/1209.2555
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2148502
+- title: Optimal Liquidity Provision
+  coauthors:
+  - Christoph Kühn
+  status: published
+  journal: Stochastic Processes and their Applications
+  details: Vol. 125, No. 7, pp. 2493–2515
+  year: 2015
+  links:
+    article: http://www.sciencedirect.com/science/article/pii/S0304414915000654
+    arxiv: http://arxiv.org/abs/1309.5235
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2380724
+- title: Asymptotics for Fixed Transaction Costs
+  coauthors:
+  - Albert Altarovici
+  - H. Mete Soner
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 19, No. 2, pp. 363–414
+  year: 2015
+  links:
+    article: http://link.springer.com/article/10.1007/s00780-015-0261-3
+    arxiv: http://arxiv.org/abs/1306.2802
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2280469
+- title: Transaction Costs, Shadow Prices, and Duality in Discrete Time
+  coauthors:
+  - Christoph Czichowsky
+  - Walter Schachermayer
+  status: published
+  journal: SIAM Journal on Financial Mathematics
+  details: Vol. 5, No. 1, pp. 258–277
+  year: 2014
+  links:
+    article: http://epubs.siam.org/doi/abs/10.1137/130925864
+    arxiv: http://arxiv.org/abs/1205.4643
+- title: Asymptotic Power Utility-Based Pricing and Hedging
+  coauthors:
+  - Jan Kallsen
+  - Richard Vierthauer
+  status: published
+  journal: Mathematics and Financial Economics
+  details: Vol. 8, No. 1, pp. 1–28
+  year: 2014
+  links:
+    article: http://link.springer.com/article/10.1007%2Fs11579-013-0095-8
+    arxiv: http://arxiv.org/abs/0912.3362
+- title: Transaction Costs, Trading Volume, and the Liquidity Premium
+  coauthors:
+  - Stefan Gerhold
+  - Paolo Guasoni
+  - Walter Schachermayer
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 18, No. 1, pp. 1–37
+  year: 2014
+  links:
+    article: http://link.springer.com/article/10.1007/s00780-013-0210-y
+    arxiv: http://arxiv.org/abs/1108.1167
+    ssrn: http://ssrn.com/abstract=1905077
+- title: On the Existence of Shadow Prices
+  coauthors:
+  - Giuseppe Benedetti
+  - Luciano Campi
+  - Jan Kallsen
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 17, No. 4, pp. 801–818
+  year: 2013
+  links:
+    article: http://link.springer.com/article/10.1007%2Fs00780-012-0201-4
+    arxiv: http://arxiv.org/abs/1111.6633
+- title: 'Portfolio Choice with Transaction Costs: a User''s Guide'
+  coauthors:
+  - Paolo Guasoni
+  status: published
+  journal: In V. Henderson and R. Sircar (eds.), Paris-Princeton Lectures on Mathematical Finance 2013, Springer, 2013
+  year: 2013
+  type: chapter
+  links:
+    article: http://link.springer.com/book/10.1007/978-3-319-00413-6
+    arxiv: http://arxiv.org/abs/1207.7330
+    ssrn: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2120574
+- title: On the Performance of Delta Hedging Strategies in Exponential Lévy Models
+  coauthors:
+  - Stephan Denkl
+  - Martina Goy
+  - Jan Kallsen
+  - Arnd Pauwels
+  status: published
+  journal: Quantitative Finance
+  details: Vol. 13, No. 8, pp. 1173–1184
+  year: 2013
+  links:
+    article: http://www.tandfonline.com/doi/full/10.1080/14697688.2013.779742
+    arxiv: http://arxiv.org/abs/0911.4859
+- title: Portfolio Selection with Small Transaction Costs and Binding Portfolio Constraints
+  coauthors:
+  - Ren Liu
+  status: published
+  journal: SIAM Journal on Financial Mathematics
+  details: Vol. 4, No. 1, pp. 203–227
+  year: 2013
+  links:
+    article: http://epubs.siam.org/doi/pdf/10.1137/120885036
+    arxiv: http://arxiv.org/abs/1205.4588
+- title: The Dual Optimizer for the Growth-Optimal Portfolio under Transaction Costs
+  coauthors:
+  - Stefan Gerhold
+  - Walter Schachermayer
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 17, No. 2, pp. 325–354
+  year: 2013
+  links:
+    article: http://www.springerlink.com/content/7816481162j67305/
+    arxiv: http://arxiv.org/abs/1005.5105
+- title: Asymptotic and Exact Pricing of Options on Variance
+  coauthors:
+  - Martin Keller-Ressel
+  status: published
+  journal: Finance and Stochastics
+  details: Vol. 17, No. 1, pp. 107–133
+  year: 2013
+  links:
+    article: http://www.springerlink.com/content/0u2362742n427535/fulltext.pdf
+    arxiv: http://arxiv.org/abs/1003.5514
+- title: Asymptotics and Duality for the Davis and Norman Problem
+  coauthors:
+  - Stefan Gerhold
+  - Walter Schachermayer
+  status: published
+  journal: Stochastics
+  details: Vol. 84, No. 5–6, pp. 625–641
+  year: 2012
+  links:
+    article: http://www.tandfonline.com/doi/abs/10.1080/17442508.2011.619699
+    arxiv: http://arxiv.org/abs/1010.0627
+- title: Utility Maximization, Risk Aversion, and Stochastic Dominance
+  coauthors:
+  - Mathias Beiglböck
+  - Johannes Temme
+  status: published
+  journal: Mathematics and Financial Economics
+  details: Vol. 6, No. 1, pp. 1–13
+  year: 2012
+  links:
+    article: http://www.springerlink.com/content/2q62kl028r476161/
+    arxiv: http://arxiv.org/abs/1104.0761
+- title: Option Pricing in Multivariate Stochastic Volatility Models of OU Type
+  coauthors:
+  - Oliver Pfaffel
+  - Robert Stelzer
+  status: published
+  journal: SIAM Journal on Financial Mathematics
+  details: Vol. 3, pp. 66–94
+  year: 2012
+  links:
+    article: http://link.aip.org/link/?SJF/3/66
+    arxiv: http://arxiv.org/abs/1001.3223
+    pdf: http://www.math.cmu.edu/~jmuhleka/80368.pdf
+- title: Small-Time Asymptotics of Option Prices and First Absolute Moments
+  coauthors:
+  - Marcel Nutz
+  status: published
+  journal: Journal of Applied Probability
+  details: Vol. 48, No. 4, pp. 1003–1020
+  year: 2011
+  links:
+    article: https://doi.org/10.1239/jap/1324046015
+    arxiv: http://arxiv.org/abs/1006.2294
+- title: Pricing Options on Variance in Affine Stochastic Volatility Models
+  coauthors:
+  - Jan Kallsen
+  - Moritz Voss
+  status: published
+  journal: Mathematical Finance
+  details: Vol. 21, No. 3, pp. 627–641
+  year: 2011
+  links:
+    article: https://doi.org/10.1111/j.1467-9965.2010.00447.x
+    pdf: http://www.math.cmu.edu/~jmuhleka/qvaffine.pdf
+- title: Method of Moment Estimation for Time-Changed Lévy Models
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: Statistics and Decisions
+  details: Vol. 28, No. 2, pp. 169–194
+  year: 2011
+  links:
+    article: https://doi.org/10.1524/stnd.2011.1076
+    pdf: http://www.math.cmu.edu/~jmuhleka/estimation2.pdf
+- title: Existence of Shadow Prices in Finite Probability Spaces
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: Mathematical Methods of Operations Research
+  details: Vol. 73, No. 2, pp. 251–262
+  year: 2011
+  links:
+    article: https://doi.org/10.1007/s00186-011-0345-6
+    arxiv: http://arxiv.org/abs/0911.4801
+- title: A Characterization of the Martingale Property of Exponentially Affine Processes
+  coauthors:
+  - Eberhard Mayerhofer
+  - Alexander Smirnov
+  status: published
+  journal: Stochastic Processes and their Applications
+  details: Vol. 121, No. 3, pp. 568–582
+  year: 2011
+  links:
+    article: https://doi.org/10.1016/j.spa.2010.11.015
+    arxiv: http://arxiv.org/abs/0910.3632
+- title: Utility Maximization in Models with Conditionally Independent Increments
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: The Annals of Applied Probability
+  details: Vol. 20, No. 6, pp. 2162–2177
+  year: 2010
+  links:
+    article: https://doi.org/10.1214/10-AAP680
+    pdf: http://www.math.cmu.edu/~jmuhleka/AAP680.pdf
+- title: Discrete-Time Variance-Optimal Hedging in Affine Stochastic Volatility Models
+  coauthors:
+  - Jan Kallsen
+  - Natalia Shenkman
+  - Richard Vierthauer
+  status: published
+  journal: In R. Kiesel, M. Scherer and R. Zagst (eds.), Alternative Investments and Strategies, World Scientific, 2010, pp. 375-394
+  year: 2010
+  type: chapter
+  links:
+    pdf: http://www.math.cmu.edu/~jmuhleka/discretehedging_preprint.pdf
+- title: On Using Shadow Prices in Portfolio Optimization with Transaction Costs
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: The Annals of Applied Probability
+  details: Vol. 20, No. 4, pp. 1341–1358
+  year: 2010
+  links:
+    article: https://doi.org/10.1214/09-AAP648
+    pdf: http://www.math.cmu.edu/~jmuhleka/AAP648.pdf
+- title: Utility Maximization in Affine Stochastic Volatility Models
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: International Journal of Theoretical and Applied Finance
+  details: Vol. 13, No. 3, pp. 459–477
+  year: 2010
+  links:
+    article: https://doi.org/10.1142/S0219024910005851
+    pdf: http://www.math.cmu.edu/~jmuhleka/affinopt3.pdf
+- title: Exponentially Affine Martingales, Affine Measure Changes and Exponential Moments of Affine Processes
+  coauthors:
+  - Jan Kallsen
+  status: published
+  journal: Stochastic Processes and their Applications
+  details: Vol. 120, No. 2, pp. 163–181
+  year: 2010
+  links:
+    article: https://doi.org/10.1016/j.spa.2009.10.012
+    pdf: http://www.math.cmu.edu/~jmuhleka/affinemartingales4.pdf

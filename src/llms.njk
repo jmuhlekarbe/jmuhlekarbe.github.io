@@ -1,0 +1,38 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }}
+
+> {{ site.description }}
+
+{{ site.name }} is {{ site.job_title }} and Head of the Mathematical Finance Section in the Department of Mathematics at Imperial College London. He co-leads the Imperial Centre of Excellence in Quantitative Finance and is Director of the CFM-Imperial Institute of Quantitative Finance. He previously held faculty positions at Carnegie Mellon University, the University of Michigan and ETH Zürich. He received his PhD from TU München (2009).
+
+Research interests: {{ site.research_interests | join(", ") }}. Recurring topics: price impact, optimal execution, market making and liquidity provision, transaction costs, portfolio choice, equilibrium asset pricing with frictions, FX fixing.
+
+Contact: {{ site.email }}
+
+## Pages
+
+- [Home]({{ site.url }}/): short introduction and contact details
+- [Biography]({{ site.url }}/bio/): full biography
+- [Publications]({{ site.url }}/publications/): complete list of publications and preprints with links
+- [Mentoring]({{ site.url }}/mentoring/): current and former postdocs and PhD students
+- [Events]({{ site.url }}/events/): workshops, conferences and summer schools he has organized
+- [CV (PDF)]({{ site.url }}/files/cv-muhle-karbe.pdf): detailed curriculum vitae
+
+## Profiles
+
+- [ORCID]({{ site.orcid }}){% for p in site.profiles %}
+- [{{ p.name }}]({{ p.url | safe }})
+{%- endfor %}
+
+## Recent preprints
+{% for p in publications | byStatus("preprint") %}{% if loop.index <= 6 %}
+- [{{ p.title }}]({{ p.links | mainLink | safe }}) (with {{ p.coauthors | andList }}, {{ p.year }})
+{%- endif %}{% endfor %}
+
+## Recent publications
+{% for p in publications %}{% if p.status != "preprint" and loop.index <= 26 %}
+- [{{ p.title }}]({{ p.links | mainLink | safe }}) (with {{ p.coauthors | andList }}). {{ p.journal }}{% if p.year %}, {{ p.year }}{% else %}, to appear{% endif %}
+{%- endif %}{% endfor %}

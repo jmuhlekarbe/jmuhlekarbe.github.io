@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: Mentoring
+description: "Current and former postdoctoral researchers and PhD students supervised by Johannes Muhle-Karbe at Imperial College London, Carnegie Mellon University, the University of Michigan and ETH Zürich."
+---
+{#- This page is built from src/_data/mentoring.yml. Edit that file, not this one. -#}
+
+{%- macro person(p) %}
+<li>
+  <span class="who">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</span>
+  {%- if p.thesis %}
+  <span class="detail">Thesis: {% if p.thesis_url %}<a href="{{ p.thesis_url }}"><em>{{ p.thesis }}</em></a>{% else %}<em>{{ p.thesis }}</em>{% endif %}</span>
+  {%- endif %}
+  <span class="detail">{{ p.details }}</span>
+  {%- if p.now %}
+  <span class="detail">Now: {{ p.now }}</span>
+  {%- endif %}
+  {%- if p.previously %}
+  <span class="detail">Previously: {{ p.previously }}</span>
+  {%- endif %}
+</li>
+{%- endmacro %}
+
+<h1>Mentoring</h1>
+
+<nav class="toc" aria-label="On this page">
+  <a href="#postdocs">Postdocs</a><a href="#phd">PhD students</a>
+</nav>
+
+<h2 id="postdocs">Postdoctoral researchers</h2>
+<h3>Current</h3>
+<ul class="people">{% for p in mentoring.current_postdocs %}{{ person(p) }}{% endfor %}</ul>
+<h3>Former</h3>
+<ul class="people">{% for p in mentoring.former_postdocs %}{{ person(p) }}{% endfor %}</ul>
+
+<h2 id="phd">PhD students</h2>
+<h3>Current</h3>
+<ul class="people">{% for p in mentoring.current_phd %}{{ person(p) }}{% endfor %}</ul>
+<h3>Former</h3>
+<ul class="people">{% for p in mentoring.former_phd %}{{ person(p) }}{% endfor %}</ul>

@@ -1,0 +1,129 @@
+# ==================================================================
+# MENTORING: postdocs and PhD students
+# ==================================================================
+# Four groups: current_postdocs, former_postdocs, current_phd,
+# former_phd. Each person is one block that starts with "- name:".
+#
+#   name:    the person's name
+#   url:     link to their homepage or LinkedIn (optional)
+#   details: role, place and dates, as one line of text
+#   thesis:  thesis title (optional, former PhD students)
+#   thesis_url: link to the thesis (optional)
+#   now:     current position (optional), e.g. "Assistant Professor at LSE"
+#   previously: earlier position(s) after leaving (optional)
+#
+# When someone finishes: cut their block and paste it into the
+# matching "former_" group, then add "now:".
+# Keep the spaces at the start of each line exactly as they are.
+# ==================================================================
+
+current_postdocs:
+  - name: Shijia Jin
+    url: https://profiles.imperial.ac.uk/s.jin
+    details: QRT Fellow, Imperial College London, from October 2026
+  - name: Yifan Jiang
+    url: https://yifanjiang233.github.io/
+    details: Chapman Fellow, Imperial College London, from October 2025
+  - name: Anthony Coache
+    url: https://anthonycoache.ca/
+    details: Research Associate, Imperial College London, from August 2024
+
+former_postdocs:
+  - name: David Itkin
+    url: https://sites.google.com/view/daviditkin
+    details: Chapman Fellow, Imperial College London, August 2022 – July 2024
+    now: Tenure-track Assistant Professor at the London School of Economics
+  - name: Henry Chiu
+    url: https://www.henrychiu.net/
+    details: EPSRC Fellow, Imperial College London, October 2022 – September 2023
+    now: Tenure-track Assistant Professor at the University of Birmingham
+  - name: Emma Hubert
+    url: https://sites.google.com/view/emmahubert
+    details: CFM Fellow, Imperial College London, October 2020 – August 2021
+    now: Associate Professor at Paris Dauphine University
+    previously: Tenure-track Assistant Professor at Princeton University
+  - name: Andreas Søjmark
+    url: https://www.lse.ac.uk/Statistics/People/Dr-Andreas-S%C3%B8jmark
+    details: Chapman Fellow, Imperial College London, October 2019 – September 2021
+    now: Tenure-track Assistant Professor at the London School of Economics
+  - name: Sebastian Herrmann
+    url: https://www.linkedin.com/in/sebastianherrmann/
+    details: Byrne Research Assistant Professor, University of Michigan, September 2016 – August 2019
+    now: Quantitative Researcher at Susquehanna International Group (SIG)
+    previously: Lecturer in Mathematical Finance at the University of Manchester
+  - name: Martin Herdegen
+    url: https://www.isa.uni-stuttgart.de/institut/team/Herdegen/
+    details: SNF Postdoctoral Fellow, ETH Zürich, September 2014 – August 2016
+    now: Professor at the University of Stuttgart
+    previously: Reader at the University of Warwick
+
+current_phd:
+  - name: Rayan Amara
+    url: https://www.linkedin.com/in/mohamed-rayan-amara-0a7314221/
+    details: Imperial College London, from November 2026. Co-supervised with Roel Oomen and Mathieu Rosenbaum, in collaboration with Deutsche Bank
+  - name: Nicolo Toia
+    details: Imperial College London, from June 2026. Co-supervised with Eduardo Epperlein and Yufei Zhang, in collaboration with Nomura
+  - name: Chiara Agostini
+    url: https://www.linkedin.com/in/chiara-agostini-5a573316b/
+    details: Imperial College London, from October 2025. CFM-Imperial Women in Quantitative Finance Studentship; co-supervised with Jean-Philippe Bouchaud
+  - name: Sturmius Tuschmann
+    url: https://tuschmann.github.io/start
+    details: Imperial College London (CDT Mathematics of Random Systems), from October 2023. Co-supervised with Eyal Neuman
+  - name: Mateo Rodriguez Polo
+    url: https://www.linkedin.com/in/mateo-rodr%C3%ADguez-polo-970b69131/
+    details: ETH Zürich, from October 2023. Co-supervised with Dylan Possamaï
+
+former_phd:
+  - name: Joseph Mulligan
+    url: https://jmulligan.me/
+    details: Imperial College London (CDT Mathematics of Random Systems, in collaboration with Qube Research & Technologies), 2021–2026. Co-supervised with Antoine Jacquier
+    thesis: "Bias-Corrected Sharpe Ratios: Closing the Gap Between In-Sample & Out-of-Sample"
+    thesis_url: https://spiral.imperial.ac.uk/items/1f7a14c9-0197-44d4-adad-df145282eabc
+    now: Quantitative Researcher at Cubist Systematic
+  - name: Owen Futter
+    url: https://uk.linkedin.com/in/owen-futter/
+    details: Imperial College London (CDT Mathematics of Random Systems, in collaboration with Catley Lakeman Securities), defended September 2025. Co-supervised with Blanka Horvath
+    thesis: "Path-Dependent Trading Strategies: Applications of Rough Path Theory & Machine Learning"
+    now: Quantitative Researcher at Jump Trading
+  - name: Jean Herskovits
+    url: https://www.linkedin.com/in/jean-herskovits/
+    details: Imperial College London (in collaboration with Nomura), defended September 2024. Co-supervised with Alex Tse
+    thesis: "Book Value Optimisation, Risk and Redistribution"
+    thesis_url: https://spiral.imperial.ac.uk/entities/publication/8019e516-90f7-4917-9e29-c2349ef952fc
+    now: Quantitative Researcher at Cubist Systematic
+  - name: Benjamin Weber
+    url: https://www.linkedin.com/in/benjamin-weber-a58133134/
+    details: Carnegie Mellon University, defended November 2023. Co-supervised with Martin Larsson
+    thesis: "Principal-Agent Problems for Market Making"
+  - name: Zexin Wang
+    url: https://www.linkedin.com/in/wang-zexin-4389a2123/
+    details: Imperial College London (Schrödinger-Roth Fellow), defended April 2023
+    thesis: "Optimal Trading with Frictions"
+    thesis_url: https://spiral.imperial.ac.uk/handle/10044/1/105831
+    now: Quantitative Analyst at Squarepoint Capital
+  - name: Xiaofei (Fei) Shi
+    url: https://xf-shi.github.io/
+    details: Carnegie Mellon University, defended May 2020
+    thesis: "Equilibrium Asset Pricing with Transaction Costs"
+    thesis_url: https://kilthub.cmu.edu/articles/thesis/Equilibrium_Asset_Pricing_with_Transaction_Costs/12536552
+    now: Tenure-track Assistant Professor at the University of Toronto
+  - name: Thomas Cayé
+    url: https://www.linkedin.com/in/thomas-cay%C3%A9-005897107/
+    details: ETH Zürich, defended May 2017
+    thesis: "Trading with Small Nonlinear Price Impact: Optimal Execution and Rebalancing of Active Investments"
+    thesis_url: https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/210462/These_ThomasCaye_final_electronicversion.pdf
+    now: Quantitative Analyst at Susquehanna International Group (SIG)
+    previously: Postdoc with Paolo Guasoni at Dublin City University
+  - name: Ren Liu
+    url: https://www.linkedin.com/in/ren-liu-61a0a6ab
+    details: ETH Zürich, defended December 2015
+    thesis: "Portfolio Selection with Frictions"
+    thesis_url: https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/155519/eth-48818-02.pdf
+    now: Risk Control Specialist at Migros Bank
+  - name: Blanka Horvath
+    url: https://sites.google.com/site/blankanorahorvath/home
+    details: ETH Zürich, defended October 2015. Co-supervised with Josef Teichmann
+    thesis: "Robust Methods for the SABR Model and Related Processes: Analysis, Asymptotics and Numerics"
+    thesis_url: https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/113809/eth-48730-02.pdf
+    now: Associate Professor at the University of Oxford
+    previously: Tenure-track Assistant Professor at TU Munich

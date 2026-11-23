@@ -1,0 +1,55 @@
+---
+layout: base.njk
+title: Publications
+description: "Publications and preprints by Johannes Muhle-Karbe on stochastic optimization, applied probability and mathematical finance, including price impact, optimal execution, market making and transaction costs."
+---
+{#- This page is built automatically from src/_data/publications.yml.
+    To add or change papers, edit that file, not this one. -#}
+
+{%- macro paper(p) %}
+<li class="paper">
+  {%- set main = p.links | mainLink %}
+  <span class="paper-title">{% if main %}<a href="{{ main }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+  {%- if p.coauthors and p.coauthors.length %}
+  <span class="paper-authors">with {{ p.coauthors | andList }}</span>
+  {%- endif %}
+  <span class="paper-venue">
+    {%- if p.status == "preprint" %}Preprint, {{ p.year }}
+    {%- elif p.status == "forthcoming" %}<em>{{ p.journal }}</em>, to appear
+    {%- else %}<em>{{ p.journal }}</em>{% if p.details %}, {{ p.details }}{% endif %}{% if p.year and p.type != "chapter" %}, {{ p.year }}{% endif %}
+    {%- endif %}
+  </span>
+  {%- if p.links %}
+  <span class="paper-links">
+    {%- for key, label in {article: "Article", arxiv: "arXiv", ssrn: "SSRN", pdf: "PDF", podcast: "Podcast", video: "Video"} %}
+      {%- if p.links[key] %}<a href="{{ p.links[key] }}">{{ label }}</a>{% endif %}
+    {%- endfor %}
+  </span>
+  {%- endif %}
+</li>
+{%- endmacro %}
+
+{%- set preprints = publications | byStatus("preprint") %}
+{%- set forthcoming = publications | byStatus("forthcoming") %}
+{%- set published = publications | byStatus("published") %}
+
+<h1>Publications</h1>
+
+<nav class="toc" aria-label="On this page">
+  <a href="#preprints">Preprints</a><a href="#publications">Publications</a>
+</nav>
+
+<h2 id="preprints">Preprints</h2>
+<ol class="papers">{% for p in preprints %}{{ paper(p) }}{% endfor %}</ol>
+
+<h2 id="publications">Publications</h2>
+{%- if forthcoming.length %}
+<h3>Forthcoming</h3>
+<ol class="papers">{% for p in forthcoming %}{{ paper(p) }}{% endfor %}</ol>
+{%- endif %}
+{%- for group in published | groupByYear %}
+<h3>{{ group.year }}</h3>
+<ol class="papers">{% for p in group.items %}{{ paper(p) }}{% endfor %}</ol>
+{%- endfor %}
+
+<script type="application/ld+json">{{ publications | pubSchema(site) | safe }}</script>

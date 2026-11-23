@@ -1,0 +1,162 @@
+# ==================================================================
+# EVENTS: workshops, conferences and summer schools organized by Johannes
+# ==================================================================
+# Each event is one block that starts with "- title:". Newest first.
+#
+#   title:        name of the event
+#   url:          link to the event page (optional)
+#   date:         as it should be shown, e.g. "November 10–11, 2026"
+#   with:         co-organizers (optional): a list, each with name and url
+#   hosted_by:    hosting organization (optional): name and url
+#   supported_by: supporting organization (optional): name and url
+#
+# Any "url:" line can be left out; the name is then shown without a link.
+# To add an event: copy a block, paste it at the top of the right
+# group, and change the details.
+# Keep the spaces at the start of each line exactly as they are.
+# ==================================================================
+
+imperial:
+- title: Imperial Summer School on Machine Learning, Applied Statistics and Quantitative Finance
+  url: https://www.imperial.ac.uk/quantitative-sciences-institute/summer-school
+  date: Every summer since 2024
+  with:
+  - name: Almut Veraart
+    url: https://profiles.imperial.ac.uk/a.veraart
+- title: CFM-Imperial Workshop on Quantitative Finance
+  url: https://sites.google.com/view/cfm-imperial-db/home
+  date: November 10–11, 2026
+  with:
+  - name: Roel Oomen
+    url: https://www.linkedin.com/in/oomeroe/
+  hosted_by:
+    name: Deutsche Bank
+    url: https://www.db.com/
+- title: CFM-Imperial Workshop on Market Microstructure
+  url: https://www.market-microstructure.net/
+  date: December 8–9, 2025
+  with:
+  - name: Jean-Philippe Bouchaud
+    url: https://www.linkedin.com/in/jean-philippe-bouchaud-bb08a15/
+  - name: Sebastian Hohmann
+    url: https://sebastianhohmann.github.io/
+  - name: Charles-Albert Lehalle
+    url: https://lehalle.net/
+  - name: Eyal Neuman
+    url: https://eyaln13.wixsite.com/eyal-neuman
+  - name: Giuseppe Nuti
+    url: https://www.linkedin.com/in/giuseppe-nuti-45819778/
+  - name: Mathieu Rosenbaum
+    url: https://quantreg.com/people/mathieurosenbaum/
+  hosted_by:
+    name: UBS
+    url: https://www.ubs.com/
+- title: ETH – Hong Kong – Imperial Workshop on Mathematical Finance
+  url: https://www.imperial.ac.uk/events/170432/first-edition-of-the-london-zurich-and-hong-kong-mathematical-finance-workshop/
+  date: June 17–20, 2024
+  with:
+  - name: Ofelia Bonesini
+    url: https://sites.google.com/view/ofelia-bonesini
+  - name: Lukas Gonon
+    url: https://lgonon.github.io/
+  - name: David Itkin
+    url: https://sites.google.com/view/daviditkin
+  - name: Eyal Neuman
+    url: https://eyaln13.wixsite.com/eyal-neuman
+  - name: Yufei Zhang
+    url: https://yufei-zhang.github.io/
+  supported_by:
+    name: the Cecilia Tanner Funding Scheme
+    url: https://www.imperial.ac.uk/mathematics/for-staff/cecilia-tanner-research-funding-schemes/
+- title: Workshop on Market Microstructure
+  url: https://www.imperial.ac.uk/events/174923/workshop-on-market-microstructure/
+  date: April 9, 2024
+- title: CFM-Imperial Workshop on Market Microstructure
+  url: https://www.market-microstructure.net/
+  date: December 11–12, 2023
+  with:
+  - name: Hanna Assayag
+    url: https://www.linkedin.com/in/hanna-assayag-b6151115/
+  - name: Alexander Barzykin
+    url: https://www.linkedin.com/in/alexander-barzykin-b430ab33/
+  - name: Jean-Philippe Bouchaud
+    url: https://www.linkedin.com/in/jean-philippe-bouchaud-bb08a15/
+  - name: Eyal Neuman
+    url: https://eyaln13.wixsite.com/eyal-neuman
+  hosted_by:
+    name: HSBC Global Markets
+    url: https://www.gbm.hsbc.com/
+- title: Workshop on Model-Free Mathematical Finance
+  url: https://www.imperial.ac.uk/events/162218/workshop-on-model-free-mathematical-finance-2
+  date: May 2023
+  with:
+  - name: Henry Chiu
+    url: https://www.henrychiu.net/
+  supported_by:
+    name: the Cecilia Tanner Research Fund
+    url: https://www.imperial.ac.uk/mathematics/for-staff/cecilia-tanner-research-funding-schemes/
+- title: Workshop on New Trends in Machine Learning for Finance
+  url: https://www.imperial.ac.uk/events/159297/new-trends-in-machine-learning-for-finance/
+  date: March 30, 2023
+  with:
+  - name: Lukas Gonon
+    url: https://lgonon.github.io/
+  supported_by:
+    name: the Cecilia Tanner Funding Scheme
+    url: https://www.imperial.ac.uk/mathematics/for-staff/cecilia-tanner-research-funding-schemes/
+- title: Workshop on Stochastic Portfolio Theory
+  url: https://www.imperial.ac.uk/events/159386/stochastic-portfolio-theory-workshop/
+  date: March 15, 2023
+  with:
+  - name: David Itkin
+    url: https://sites.google.com/view/daviditkin
+- title: Workshop on Machine Learning for Optimal Control
+  url: https://www.imperial.ac.uk/events/148276/workshop-on-machine-learning-for-optimal-control/
+  date: July 13, 2022
+  with:
+  - name: Panos Parpas
+    url: https://www.imperial.ac.uk/people/panos.parpas/
+  supported_by:
+    name: the Quantitative Sciences Research Institute
+    url: https://www.imperial.ac.uk/quantitative-sciences-institute/about/
+- title: Conference on New Trends in Stochastic Control
+  url: https://www.imperial.ac.uk/events/149168/new-trends-in-stochastic-control/
+  date: July 11–12, 2022
+  with:
+  - name: Christoph Czichowsky
+    url: https://www.lse.ac.uk/Mathematics/people/Christoph-Czichowsky
+  - name: Roxana Dumitrescu
+    url: https://www.roxanadumitrescu.fr/
+  supported_by:
+    name: the London Mathematical Society
+    url: https://www.lms.ac.uk/
+- title: CFM-Imperial Workshop on Market Microstructure
+  url: https://www.market-microstructure.net/
+  date: December 12–13, 2019
+  with:
+  - name: Jean-Philippe Bouchaud
+    url: https://www.linkedin.com/in/jean-philippe-bouchaud-bb08a15/
+  - name: Charles-Albert Lehalle
+    url: https://lehalle.net/
+  - name: Eyal Neuman
+    url: https://eyaln13.wixsite.com/eyal-neuman
+  hosted_by:
+    name: HSBC Global Markets
+    url: https://www.gbm.hsbc.com/
+michigan:
+- title: Young Researcher Workshop on Mathematical Finance
+  date: April 2017, Ann Arbor
+  with:
+  - name: Erhan Bayraktar
+    url: https://sites.lsa.umich.edu/erhan/
+  - name: Romuald Elie
+    url: https://scholar.google.fr/citations?user=QaMP6oAAAAAJ&hl=fr
+  - name: Sergey Nadtochiy
+    url: https://sites.google.com/view/sergey-nadtochiy
+- title: Byrne Workshop on Stochastic Analysis for Finance and Insurance
+  date: June 2016, Ann Arbor
+  with:
+  - name: Erhan Bayraktar
+    url: https://sites.lsa.umich.edu/erhan/
+  - name: Sergey Nadtochiy
+    url: https://sites.google.com/view/sergey-nadtochiy

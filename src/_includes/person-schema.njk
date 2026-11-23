@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#person",
+  "name": "{{ site.name }}",
+  "alternateName": ["Johannes Muhle Karbe", "J. Muhle-Karbe"],
+  "url": "{{ site.url }}/",
+  "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0002-9165-2244"},
+  "image": "{{ site.url }}/images/profile.jpg",
+  "email": "mailto:{{ site.email }}",
+  "jobTitle": ["{{ site.job_title }}"{% for r in site.roles %}, "{{ r }}"{% endfor %}],
+  "description": "{{ site.description }}",
+  "worksFor": {
+    "@type": "CollegeOrUniversity",
+    "name": "Imperial College London",
+    "url": "https://www.imperial.ac.uk/",
+    "department": {"@type": "Organization", "name": "Department of Mathematics", "url": "https://www.imperial.ac.uk/mathematics"}
+  },
+  "affiliation": [
+    {"@type": "Organization", "name": "Mathematical Finance Section, Imperial College London", "url": "https://www.imperial.ac.uk/mathematical-finance/"},
+    {"@type": "Organization", "name": "Imperial Centre of Excellence in Quantitative Finance", "url": "https://www.imperial.ac.uk/quantitative-finance-centre/"},
+    {"@type": "Organization", "name": "CFM-Imperial Institute of Quantitative Finance", "url": "https://www.imperial.ac.uk/quantitative-finance/"},
+    {"@type": "CollegeOrUniversity", "name": "Carnegie Mellon University", "url": "https://www.cmu.edu/"}
+  ],
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Technical University of Munich", "url": "https://www.tum.de/en/"},
+  "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "PhD in Mathematics, Technical University of Munich (2009)"},
+  "award": [
+    "Förderpreis of the Fachgruppe Stochastik of the German Mathematical Society (2010)",
+    "Nicola Bruti Liberati Prize of the Bachelier Finance Society (2012)"
+  ],
+  "knowsAbout": [{% for t in site.research_interests %}"{{ t }}", {% endfor %}"Mathematical Finance", "Market Microstructure", "Price Impact", "Optimal Execution", "Transaction Costs", "Portfolio Choice", "Quantitative Finance"],
+  "address": {"@type": "PostalAddress", "streetAddress": "{{ site.office }}, Department of Mathematics, Imperial College London", "addressLocality": "London", "postalCode": "SW7 2AZ", "addressCountry": "GB"},
+  "sameAs": ["{{ site.orcid }}"{% for p in site.profiles %}, "{{ p.url }}"{% endfor %}]
+}

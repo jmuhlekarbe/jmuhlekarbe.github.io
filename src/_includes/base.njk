@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- set pageTitle = (title + " · " + site.name) if title else (site.name + " · Mathematical Finance, Imperial College London") %}
+  <title>{{ pageTitle }}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <meta name="author" content="{{ site.name }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta name="theme-color" content="#002147">
+
+  <!-- How the page looks when shared on LinkedIn, Slack, etc. -->
+  <meta property="og:type" content="{{ 'profile' if page.url == '/' else 'website' }}">
+  <meta property="og:title" content="{{ pageTitle }}">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/images/profile.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Machine-readable facts about Johannes (for Google and AI search tools) -->
+  <script type="application/ld+json">{% include "person-schema.njk" %}</script>
+  {%- if schema %}
+  <script type="application/ld+json">{{ schema | safe }}</script>
+  {%- endif %}
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="/">{{ site.name }}</a>
+    <nav aria-label="Main">
+      {%- set nav = [["/", "Home"], ["/publications/", "Publications"], ["/mentoring/", "Mentoring"], ["/events/", "Events"], ["/bio/", "Biography"]] %}
+      {%- for item in nav %}
+      <a href="{{ item[0] }}"{% if page.url == item[0] %} aria-current="page"{% endif %}>{{ item[1] }}</a>
+      {%- endfor %}
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <address>
+      <strong>{{ site.name }}</strong><br>
+      {%- for line in site.address %}
+      {{ line }}<br>
+      {%- endfor %}
+      Office: {{ site.office }}<br>
+      Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </address>
+    <p class="updated">Last updated {{ site.last_updated }}</p>
+  </footer>
+</body>
+</html>

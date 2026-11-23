@@ -1,0 +1,46 @@
+# ------------------------------------------------------------------
+# Basic facts about Johannes, used on every page (footer, contact,
+# and the hidden information that search engines and AI tools read).
+# Edit the text after the colon. Keep the quotation marks where they are.
+# ------------------------------------------------------------------
+
+name: "Johannes Muhle-Karbe"
+url: "https://www.jmuhlekarbe.com"
+description: "Johannes Muhle-Karbe is Chair in Mathematical Finance and Head of the Mathematical Finance Section at Imperial College London. His research spans stochastic optimization, applied probability and applications in finance."
+
+job_title: "Chair in Mathematical Finance"
+roles:
+  - "Head of the Mathematical Finance Section, Imperial College London"
+  - "Co-Director, Imperial Centre of Excellence in Quantitative Finance"
+  - "Director, CFM-Imperial Institute of Quantitative Finance"
+
+research_interests:
+  - "Stochastic Optimization"
+  - "Applied Probability"
+  - "Applications in Finance"
+
+email: "j.muhle-karbe@imperial.ac.uk"
+
+# Contact address (shown at the bottom of every page)
+address:
+  - "Department of Mathematics"
+  - "Imperial College London"
+  - "London SW7 2AZ, UK"
+office: "Weeks Building 806"
+
+# ORCID iD: not shown on the page, but kept for search engines and AI tools.
+orcid: "https://orcid.org/0000-0002-9165-2244"
+
+# Profile links. To remove one, delete its line. To add one, copy a line.
+profiles:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=eNr-L2YAAAAJ&hl=en"
+  - name: "SSRN"
+    url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1578807"
+  - name: "arXiv"
+    url: "https://arxiv.org/search/?query=Muhle-Karbe%2C+Johannes&searchtype=all&order=-announced_date_first&size=50"
+  - name: "LinkedIn"
+    url: "https://uk.linkedin.com/in/johannes-muhle-karbe-77428a105"
+
+# Date shown in the footer as "Last updated". Change when you edit content.
+last_updated: "2026-11-23"
