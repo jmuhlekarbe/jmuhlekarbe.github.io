@@ -1,4 +1,4 @@
-yaml
+
 # Builds the website and publishes it to GitHub Pages every time a change
 # is saved (committed) to the main branch. No need to edit this file.
 name: Publish website
